@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family:Bulgatti;
+	src:url(../Fuentes/Bulgatti.ttf);
+}
+body{
+	background-image: url(../imagenes/Imagen31.png);
+}
+.contenedor{
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+header{
+	background:#EB4A33;
+	font-family:Bulgatti;
+}
+header h1 {
+	color:#fff;
+	padding:20px 0;
+	text-align:center;
+}
+.main{
+	width:100%;
+	background:#fff;
+	padding:20px;
+	float:left;
+	box-sizing:border-box;
+}
+.main img{
+	width:100%;
+	height:auto;
+}
+
+aside {
+	width:30%;
+	padding:20px;
+	box-sizing:border-box;
+	background:#ccc;
+	float:left;
+}
+footer{
+	clear:both;
+	float:left;
+	box-sizing:border-box;
+	width:100%;
+	padding:10px;
+	text-align: center;
+	background-color:rgba(91, 3, 3,.9);
+	-webkit-transition: background-color .5s;
+	box-shadow: 2px 0px 7px #000;
+	color:#FFF;
+	font-family:bulgatti;
+}
+.menu-1{
+	height: 60px;
+	text-align: center;
+	padding: 10px;
+	background-color:rgba(91, 3, 3,.9);
+	-webkit-transition: background-color .5s;
+	box-shadow: 2px 0px 7px #000;
+}
+.slider-1, .slider-2, .slider-3, .slider-4,.slider-5{
+	height: 100%;
+	text-align: center;
+}
+.slider-1{
+	background-color:#FBFBFD;
+}
+.slider-2{
+	background-color:#FBFBFD;
+}
+.slider-3{
+	background-color:#FBFBFD;
+}
+.slider-4{
+	background-color:#FBFBFD;
+}
+.slider-5{
+	background-color:#FBFBFD;
+}
+
+@media screen and (max-width:800px){
+	.main{
+		width:100%;
+	}
+	aside{
+		width:100%;
+	}
+	header .menu-1{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:600px){
+	.contenedor{
+		width:100%;
+	}
+	aside{
+		display:none;
+	}
+	header .menu-1{
+		display:none;
+	}
+	
+}
